@@ -37,7 +37,9 @@
             </div>
             <div class="fecha_nacimiento">
                 <label for="day">Dia:
-                    <select name="" id=""></select>
+                    <select name="" id="">
+                        <option value="1"></option>
+                    </select>
                 </label>
             </div>
         </div>
