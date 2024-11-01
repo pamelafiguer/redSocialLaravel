@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class RedSocialController extends Controller
 {
-    //
+    public function Register() {
+        return view('Register');
+    }
 }

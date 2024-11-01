@@ -4,8 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Web\RedSocialController;
 
 Route::controller(RedSocialController::class) ->group(function() {
-    Route::get('/', 'showLoginForm')->name('login');
-    Route::post('/', 'login')->name('procesar_login');
+    Route::get('/', 'Register')->name('Register');
+    Route::post('/', 'Register')->name('Register');
 
     Route::get('/registrarse', 'showRegisterForm')->name('registrarse');
     Route::post('/registrarse', 'register')->name('registrarse');
